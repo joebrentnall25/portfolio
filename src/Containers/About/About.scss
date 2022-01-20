@@ -1,0 +1,19 @@
+@use "../../Assets/Styles/Utility/variables" as *;
+
+.about {
+    background-color: $secondary-background-color;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: $standard-margin;
+    row-gap: 1rem;
+    &__header {
+        color: $secondary-color;
+        font-size: 36px;
+    }
+    &__para {
+        color: $font-light;
+    }
+}
