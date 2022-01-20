@@ -1,0 +1,25 @@
+@use "../../Assets/Styles/Utility/variables" as *;
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $primary-background-color;
+    align-items: center;
+    &__heading {
+        color: $font-dark;
+        font-size: 40px;
+        text-align: center;
+        margin: 0 2rem;
+        &-span {
+            color: $primary-color;
+        }
+    }
+    &__next {
+        height: 20px;
+        width: 20px;
+        background-color: black;
+    }
+}
