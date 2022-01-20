@@ -1,0 +1,21 @@
+@use "../../Assets/Styles/Utility/variables" as *;
+
+.skills {
+    background-color: $primary-background-color; 
+    min-height: 50vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $standard-margin;
+    &__header {
+        color: $primary-color;
+        align-self: flex-start;
+    }
+    &__grid {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+}
